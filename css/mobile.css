@@ -2,15 +2,15 @@
 
 @media only screen and (max-width: 787px) {
 	.header img {
-		margin-left: 100px;
+		margin-left: 125px;
 	}
 
 	.header {
 		position: relative;
-		height: 200px;
+		height: 300px;
 	}
 
-	.topo {
+	.topo ul li a{
 		text-align: center;
 	}
 
@@ -24,14 +24,6 @@
 		padding: 10px;
 	}
 
-	.banner {
-		height: 600px;
-	}
-
-	.slide h3 {
-		font-size: 30px;
-	}
-
 	.rodape {
 		height: 120px;
 	}
@@ -39,5 +31,9 @@
 	.rodape h3 {
 		line-height: 120px;
 		font-size: 15px;
+	}
+
+	.contact-form {
+		margin-top: 250px;
 	}
 }
