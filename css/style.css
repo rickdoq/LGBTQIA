@@ -1,67 +1,7 @@
-.one {
-	width: 100%;
-	height: 4px;
-	background: black;
-}
 
-/* Scrollbar */
-
-::-webkit-scrlbar
-::-webkit-scrollbar-thumb
-
-::-webkit-scrollbar-track {
-	background: darkviolet;
-}
-::-webkit-scrollbar {
-	width: 6px;
-	background: darkviolet;
-}
-::-webkit-scrollbar-thumb {
-	background: pink;
-}
 
 body {
 	background-color: darkblue;
-}
-
-/* Menu */
-
-.header {
-	width: 100%;
-	background-color: darkviolet;
-    /* background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple); */
-	padding: 25px;
-}
-
-.header img {
-	background-color: black;
-	border-radius: 5px;
-	border: 5px solid black;
-}
-
-.topo {
-	text-align: right;
-}
-
-.topo ul li {
-	display: inline-block;
-	margin-left: 15px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-.topo ul li a {
-	font-family: Arial;
-	font-size: 17px;
-	font-weight: bold;
-	color: white;
-	text-transform: uppercase;
-	line-height: 20px;
-	text-decoration: none;
-}
-
-.topo ul li a:hover {
-	color:  black;
 }
 
 /* Conteudo Principal */
@@ -69,7 +9,7 @@ body {
 .principal {
 	border: 4px solid rgb(90, 90, 90);
 	margin: auto;
-	width: 100%;
+	width: 95%;
 	margin-top: 10px;
 	border-radius: 6px;
 	background-color: white;
@@ -191,6 +131,7 @@ body {
 	border-radius: 10px;
 	margin-right: 20px;
 	margin-left: 20px;
+	width: 50%;
 }
 .historia_texto h5 {
 	margin-left: 25px;
