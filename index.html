@@ -18,6 +18,20 @@
 </head>
 <body>
 
+	    <!-- início do preloader -->
+    <div id="preloader">
+        <div class="inner">
+           <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+           <div class="bolas">
+              <div></div>
+              <div></div>
+              <div></div>                    
+           </div>
+        </div>
+    </div>
+    <!-- fim do preloader --> 
+
+
 <!-- Menu -->
 
 	<div class="one"> <!-- Isso é aquela barrinha no topo do meu --> </div>
@@ -31,6 +45,8 @@
 			<ul>
 
 				<li><a href="index.html">Início</a></li>
+				<li><a href="#">Siglas</a></li>
+				<li><a href="#">Mídias</a></li>
 				<li><a href="contato.html">Contato</a></li>
 
 			</ul>
@@ -87,7 +103,54 @@
 		</div>
 		</section>
 
-		
+		<section class="principal2">
+		<div class="container2">
+
+			<div class="historia_titulo">
+			<h2>História</h2>
+			<h4>Quando surgiu o movimento?</h4>	
+			</div>
+
+			
+			<div class="historia_texto">
+
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			</div>
+
+			<div class="historia_titulo">
+			<h2>História</h2>
+			<h4>Quando surgiu a bandeira?</h4>	
+			</div>
+			<div class="historia_texto">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<img src="img/historia/baker.jpg">
+			<h5>Gilbert Baker</h5>
+			</div>
+		</div>
+	</section>
 <!-- Fim Conteudo Principal -->
+
+<script type="text/javascript">
+	//<![CDATA[
+	$(window).on('load', function () {
+    $('#preloader .inner').fadeOut();
+    $('#preloader').delay(350).fadeOut('slow'); 
+    $('body').delay(350).css({'overflow': 'visible'});
+})
+//]]>
+</script>
 </body>
 </html>
