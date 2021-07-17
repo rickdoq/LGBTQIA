@@ -43,3 +43,22 @@
 .topo ul li a:hover {
 	color:  black;
 }
+
+/* Footer */
+
+.footer {
+	width: 100%;
+	background-color: darkviolet;
+	padding: 25px;
+}
+
+.footer p {
+	font-family: Arial;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+}
